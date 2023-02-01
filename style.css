@@ -3,7 +3,7 @@ h1 {
   background-color: rgb(20, 18, 18);
   text-align: center;
   padding: .5cm;
-  border-radius: .5cm;
+  border-radius: .15cm;
   
 }
 
@@ -15,4 +15,13 @@ p {
 body {
   background-color: rgb(51, 53, 59);
   text-align: center
+}
+
+button {
+
+  background-color: rgb(20, 18, 18);
+  color: white;
+  padding: .5cm;
+  border-radius: .2cm;
+
 }

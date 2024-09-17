@@ -12,19 +12,23 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <p>We're also bankrupt.</p>
 
-    <input type="text">
-    <input type="button" onclick="testFunc()" value="Click me" />
+    <input type="button" onclick="testFunc()" value="Click here to login" />
 
 
     <script>
         function testFunc() {
-            var name=prompt('your name please')
-            alert('Wow: ' + name);
+            result = false;
+            var x=prompt('Username: ')
+            if (x=="test"){
+                result = true;
+            }
+            alert(result);
        }
       </script>
 
 </body>
 <footer>
-    <p>Rev 1.1</p>
+    <p>This is a test site for testing purposes. Not a real site.</p>
+    <p>Rev 1.2</p>
 </footer>
 </html>
